@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07B03CF821D7681A00986231 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B03CF721D7681A00986231 /* AppDelegate.m */; };
+		07B03CFB21D7681A00986231 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B03CFA21D7681A00986231 /* ViewController.m */; };
+		07B03CFE21D7681A00986231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B03CFC21D7681A00986231 /* Main.storyboard */; };
+		07B03D0021D7681C00986231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07B03CFF21D7681C00986231 /* Assets.xcassets */; };
+		07B03D0321D7681C00986231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B03D0121D7681C00986231 /* LaunchScreen.storyboard */; };
+		07B03D0621D7681C00986231 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B03D0521D7681C00986231 /* main.m */; };
+		07B03D1021D7681C00986231 /* CCBridgeFlutterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B03D0F21D7681C00986231 /* CCBridgeFlutterTests.m */; };
+		07B03D1B21D7681C00986231 /* CCBridgeFlutterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B03D1A21D7681C00986231 /* CCBridgeFlutterUITests.m */; };
+		07B03D2C21D76AEC00986231 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 07B03D2921D76AEC00986231 /* Debug.xcconfig */; };
+		07B03D2D21D76AEC00986231 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 07B03D2A21D76AEC00986231 /* Release.xcconfig */; };
+		07B03D2E21D76AEC00986231 /* Flutter.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 07B03D2B21D76AEC00986231 /* Flutter.xcconfig */; };
+		07B03D6D21DC5CC400986231 /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B03D6C21DC5CC400986231 /* App.framework */; };
+		07B03D6E21DC5CC900986231 /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B03D6C21DC5CC400986231 /* App.framework */; };
+		07B03D6F21DC5CC900986231 /* App.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07B03D6C21DC5CC400986231 /* App.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07B03D7321DC68E200986231 /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B03D7121DC68E100986231 /* Flutter.framework */; };
+		07B03D7421DC68E200986231 /* Flutter.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 07B03D7221DC68E100986231 /* Flutter.podspec */; };
+		07B03D7521DC690400986231 /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B03D7121DC68E100986231 /* Flutter.framework */; };
+		07B03D7621DC690400986231 /* Flutter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07B03D7121DC68E100986231 /* Flutter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07B03D8221DCA68E00986231 /* flutter_assets in Resources */ = {isa = PBXBuildFile; fileRef = 07B03D8121DCA68E00986231 /* flutter_assets */; };
+		B5D48E5E2B4E9564ACD6BB96 /* libPods-CCBridgeFlutter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7E28C664B58CCE8556BF4C /* libPods-CCBridgeFlutter.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07B03D0C21D7681C00986231 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07B03CEB21D7681A00986231 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07B03CF221D7681A00986231;
+			remoteInfo = CCBridgeFlutter;
+		};
+		07B03D1721D7681C00986231 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07B03CEB21D7681A00986231 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07B03CF221D7681A00986231;
+			remoteInfo = CCBridgeFlutter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		07B03D5221D7775000986231 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				07B03D6F21DC5CC900986231 /* App.framework in Embed Frameworks */,
+				07B03D7621DC690400986231 /* Flutter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07B03CF321D7681A00986231 /* CCBridgeFlutter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCBridgeFlutter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B03CF621D7681A00986231 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07B03CF721D7681A00986231 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07B03CF921D7681A00986231 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07B03CFA21D7681A00986231 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07B03CFD21D7681A00986231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07B03CFF21D7681C00986231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07B03D0221D7681C00986231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07B03D0421D7681C00986231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07B03D0521D7681C00986231 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07B03D0B21D7681C00986231 /* CCBridgeFlutterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCBridgeFlutterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B03D0F21D7681C00986231 /* CCBridgeFlutterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBridgeFlutterTests.m; sourceTree = "<group>"; };
+		07B03D1121D7681C00986231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07B03D1621D7681C00986231 /* CCBridgeFlutterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCBridgeFlutterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B03D1A21D7681C00986231 /* CCBridgeFlutterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBridgeFlutterUITests.m; sourceTree = "<group>"; };
+		07B03D1C21D7681C00986231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07B03D2921D76AEC00986231 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		07B03D2A21D76AEC00986231 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		07B03D2B21D76AEC00986231 /* Flutter.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Flutter.xcconfig; sourceTree = "<group>"; };
+		07B03D6C21DC5CC400986231 /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = "<group>"; };
+		07B03D7121DC68E100986231 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flutter.framework; sourceTree = "<group>"; };
+		07B03D7221DC68E100986231 /* Flutter.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; };
+		07B03D8121DCA68E00986231 /* flutter_assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = flutter_assets; sourceTree = "<group>"; };
+		0F00F534A62EC98E1BBE7466 /* Pods-CCBridgeFlutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCBridgeFlutter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCBridgeFlutter/Pods-CCBridgeFlutter.debug.xcconfig"; sourceTree = "<group>"; };
+		2B7E28C664B58CCE8556BF4C /* libPods-CCBridgeFlutter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCBridgeFlutter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		560F81798EAF7C0816131CBD /* Pods-CCBridgeFlutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCBridgeFlutter.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCBridgeFlutter/Pods-CCBridgeFlutter.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07B03CF021D7681A00986231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D48E5E2B4E9564ACD6BB96 /* libPods-CCBridgeFlutter.a in Frameworks */,
+				07B03D7521DC690400986231 /* Flutter.framework in Frameworks */,
+				07B03D6D21DC5CC400986231 /* App.framework in Frameworks */,
+				07B03D6E21DC5CC900986231 /* App.framework in Frameworks */,
+				07B03D7321DC68E200986231 /* Flutter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07B03D0821D7681C00986231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07B03D1321D7681C00986231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B03CEA21D7681A00986231 = {
+			isa = PBXGroup;
+			children = (
+				07B03D3021D7721500986231 /* Flutter */,
+				07B03CF521D7681A00986231 /* CCBridgeFlutter */,
+				07B03D0E21D7681C00986231 /* CCBridgeFlutterTests */,
+				07B03D1921D7681C00986231 /* CCBridgeFlutterUITests */,
+				07B03CF421D7681A00986231 /* Products */,
+				51BDF0E27823F9480D8D79A6 /* Pods */,
+				5F64334D4EF0428752311864 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07B03CF421D7681A00986231 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07B03CF321D7681A00986231 /* CCBridgeFlutter.app */,
+				07B03D0B21D7681C00986231 /* CCBridgeFlutterTests.xctest */,
+				07B03D1621D7681C00986231 /* CCBridgeFlutterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07B03CF521D7681A00986231 /* CCBridgeFlutter */ = {
+			isa = PBXGroup;
+			children = (
+				07B03D2821D76AEC00986231 /* Config */,
+				07B03CF621D7681A00986231 /* AppDelegate.h */,
+				07B03CF721D7681A00986231 /* AppDelegate.m */,
+				07B03CF921D7681A00986231 /* ViewController.h */,
+				07B03CFA21D7681A00986231 /* ViewController.m */,
+				07B03CFC21D7681A00986231 /* Main.storyboard */,
+				07B03CFF21D7681C00986231 /* Assets.xcassets */,
+				07B03D0121D7681C00986231 /* LaunchScreen.storyboard */,
+				07B03D0421D7681C00986231 /* Info.plist */,
+				07B03D0521D7681C00986231 /* main.m */,
+			);
+			path = CCBridgeFlutter;
+			sourceTree = "<group>";
+		};
+		07B03D0E21D7681C00986231 /* CCBridgeFlutterTests */ = {
+			isa = PBXGroup;
+			children = (
+				07B03D0F21D7681C00986231 /* CCBridgeFlutterTests.m */,
+				07B03D1121D7681C00986231 /* Info.plist */,
+			);
+			path = CCBridgeFlutterTests;
+			sourceTree = "<group>";
+		};
+		07B03D1921D7681C00986231 /* CCBridgeFlutterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07B03D1A21D7681C00986231 /* CCBridgeFlutterUITests.m */,
+				07B03D1C21D7681C00986231 /* Info.plist */,
+			);
+			path = CCBridgeFlutterUITests;
+			sourceTree = "<group>";
+		};
+		07B03D2821D76AEC00986231 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				07B03D2921D76AEC00986231 /* Debug.xcconfig */,
+				07B03D2A21D76AEC00986231 /* Release.xcconfig */,
+				07B03D2B21D76AEC00986231 /* Flutter.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		07B03D3021D7721500986231 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				07B03D8121DCA68E00986231 /* flutter_assets */,
+				07B03D7021DC68E100986231 /* engine */,
+				07B03D6C21DC5CC400986231 /* App.framework */,
+			);
+			path = Flutter;
+			sourceTree = "<group>";
+		};
+		07B03D7021DC68E100986231 /* engine */ = {
+			isa = PBXGroup;
+			children = (
+				07B03D7121DC68E100986231 /* Flutter.framework */,
+				07B03D7221DC68E100986231 /* Flutter.podspec */,
+			);
+			path = engine;
+			sourceTree = "<group>";
+		};
+		51BDF0E27823F9480D8D79A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F00F534A62EC98E1BBE7466 /* Pods-CCBridgeFlutter.debug.xcconfig */,
+				560F81798EAF7C0816131CBD /* Pods-CCBridgeFlutter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F64334D4EF0428752311864 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B7E28C664B58CCE8556BF4C /* libPods-CCBridgeFlutter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07B03CF221D7681A00986231 /* CCBridgeFlutter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B03D1F21D7681C00986231 /* Build configuration list for PBXNativeTarget "CCBridgeFlutter" */;
+			buildPhases = (
+				A0E868DE86E223CA3A19A299 /* [CP] Check Pods Manifest.lock */,
+				07B03CEF21D7681A00986231 /* Sources */,
+				07B03CF021D7681A00986231 /* Frameworks */,
+				07B03CF121D7681A00986231 /* Resources */,
+				07B03D2F21D76B8100986231 /* ShellScript */,
+				07B03D5221D7775000986231 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCBridgeFlutter;
+			productName = CCBridgeFlutter;
+			productReference = 07B03CF321D7681A00986231 /* CCBridgeFlutter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07B03D0A21D7681C00986231 /* CCBridgeFlutterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B03D2221D7681C00986231 /* Build configuration list for PBXNativeTarget "CCBridgeFlutterTests" */;
+			buildPhases = (
+				07B03D0721D7681C00986231 /* Sources */,
+				07B03D0821D7681C00986231 /* Frameworks */,
+				07B03D0921D7681C00986231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07B03D0D21D7681C00986231 /* PBXTargetDependency */,
+			);
+			name = CCBridgeFlutterTests;
+			productName = CCBridgeFlutterTests;
+			productReference = 07B03D0B21D7681C00986231 /* CCBridgeFlutterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07B03D1521D7681C00986231 /* CCBridgeFlutterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B03D2521D7681C00986231 /* Build configuration list for PBXNativeTarget "CCBridgeFlutterUITests" */;
+			buildPhases = (
+				07B03D1221D7681C00986231 /* Sources */,
+				07B03D1321D7681C00986231 /* Frameworks */,
+				07B03D1421D7681C00986231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07B03D1821D7681C00986231 /* PBXTargetDependency */,
+			);
+			name = CCBridgeFlutterUITests;
+			productName = CCBridgeFlutterUITests;
+			productReference = 07B03D1621D7681C00986231 /* CCBridgeFlutterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07B03CEB21D7681A00986231 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = clz;
+				TargetAttributes = {
+					07B03CF221D7681A00986231 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					07B03D0A21D7681C00986231 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 07B03CF221D7681A00986231;
+					};
+					07B03D1521D7681C00986231 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 07B03CF221D7681A00986231;
+					};
+				};
+			};
+			buildConfigurationList = 07B03CEE21D7681A00986231 /* Build configuration list for PBXProject "CCBridgeFlutter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07B03CEA21D7681A00986231;
+			productRefGroup = 07B03CF421D7681A00986231 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07B03CF221D7681A00986231 /* CCBridgeFlutter */,
+				07B03D0A21D7681C00986231 /* CCBridgeFlutterTests */,
+				07B03D1521D7681C00986231 /* CCBridgeFlutterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07B03CF121D7681A00986231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B03D2C21D76AEC00986231 /* Debug.xcconfig in Resources */,
+				07B03D7421DC68E200986231 /* Flutter.podspec in Resources */,
+				07B03D0321D7681C00986231 /* LaunchScreen.storyboard in Resources */,
+				07B03D0021D7681C00986231 /* Assets.xcassets in Resources */,
+				07B03D2E21D76AEC00986231 /* Flutter.xcconfig in Resources */,
+				07B03CFE21D7681A00986231 /* Main.storyboard in Resources */,
+				07B03D8221DCA68E00986231 /* flutter_assets in Resources */,
+				07B03D2D21D76AEC00986231 /* Release.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07B03D0921D7681C00986231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07B03D1421D7681C00986231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07B03D2F21D76B8100986231 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n\n";
+		};
+		A0E868DE86E223CA3A19A299 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCBridgeFlutter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07B03CEF21D7681A00986231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B03CFB21D7681A00986231 /* ViewController.m in Sources */,
+				07B03D0621D7681C00986231 /* main.m in Sources */,
+				07B03CF821D7681A00986231 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07B03D0721D7681C00986231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B03D1021D7681C00986231 /* CCBridgeFlutterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07B03D1221D7681C00986231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B03D1B21D7681C00986231 /* CCBridgeFlutterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07B03D0D21D7681C00986231 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07B03CF221D7681A00986231 /* CCBridgeFlutter */;
+			targetProxy = 07B03D0C21D7681C00986231 /* PBXContainerItemProxy */;
+		};
+		07B03D1821D7681C00986231 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07B03CF221D7681A00986231 /* CCBridgeFlutter */;
+			targetProxy = 07B03D1721D7681C00986231 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07B03CFC21D7681A00986231 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07B03CFD21D7681A00986231 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07B03D0121D7681C00986231 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07B03D0221D7681C00986231 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07B03D1D21D7681C00986231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B03D2921D76AEC00986231 /* Debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07B03D1E21D7681C00986231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B03D2A21D76AEC00986231 /* Release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07B03D2021D7681C00986231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F00F534A62EC98E1BBE7466 /* Pods-CCBridgeFlutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UPN3N6DG5P;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+					"$(PROJECT_DIR)/Flutter/engine",
+				);
+				INFOPLIST_FILE = CCBridgeFlutter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cxlone.CCBridgeFlutter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07B03D2121D7681C00986231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 560F81798EAF7C0816131CBD /* Pods-CCBridgeFlutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UPN3N6DG5P;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+					"$(PROJECT_DIR)/Flutter/engine",
+				);
+				INFOPLIST_FILE = CCBridgeFlutter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cxlone.CCBridgeFlutter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07B03D2321D7681C00986231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CCBridgeFlutterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cxlone.CCBridgeFlutterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCBridgeFlutter.app/CCBridgeFlutter";
+			};
+			name = Debug;
+		};
+		07B03D2421D7681C00986231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CCBridgeFlutterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cxlone.CCBridgeFlutterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCBridgeFlutter.app/CCBridgeFlutter";
+			};
+			name = Release;
+		};
+		07B03D2621D7681C00986231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CCBridgeFlutterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cxlone.CCBridgeFlutterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CCBridgeFlutter;
+			};
+			name = Debug;
+		};
+		07B03D2721D7681C00986231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CCBridgeFlutterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cxlone.CCBridgeFlutterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CCBridgeFlutter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07B03CEE21D7681A00986231 /* Build configuration list for PBXProject "CCBridgeFlutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B03D1D21D7681C00986231 /* Debug */,
+				07B03D1E21D7681C00986231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07B03D1F21D7681C00986231 /* Build configuration list for PBXNativeTarget "CCBridgeFlutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B03D2021D7681C00986231 /* Debug */,
+				07B03D2121D7681C00986231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07B03D2221D7681C00986231 /* Build configuration list for PBXNativeTarget "CCBridgeFlutterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B03D2321D7681C00986231 /* Debug */,
+				07B03D2421D7681C00986231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07B03D2521D7681C00986231 /* Build configuration list for PBXNativeTarget "CCBridgeFlutterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B03D2621D7681C00986231 /* Debug */,
+				07B03D2721D7681C00986231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07B03CEB21D7681A00986231 /* Project object */;
+}
